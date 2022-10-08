@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.bg-hero{
+  background-size: cover !important;
+  background-position: center !important;
+  background-image: url('/hero/bg-hero.png');
+
+}
