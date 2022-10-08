@@ -38,8 +38,6 @@ module.exports = {
         Default: '#464b58b3',
         Gradient1: '#301556',
         Gradient2: '#301556f0',
-        Transparent1: 'ffffff1a',
-        Transparent2: 'ffffff0d',
         white: '#ffffff',
       },
       divider:{
@@ -50,7 +48,11 @@ module.exports = {
       },
       Text:{
         Default: '#FFFFFF',
-      }
+      },
+      Transparent:{
+        Default: '#ffffff1a',
+        1: '#ffffff0d',
+      },
     }
   },
   plugins: [],
