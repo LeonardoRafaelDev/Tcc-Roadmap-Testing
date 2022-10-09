@@ -2,6 +2,13 @@
 module.exports = {
   content: [
     "./index.html",
+    "./index.js",
+    "./index.css",
+    "./scrollreveal.js",
+    "./**/**/*.html",
+    "./**/**/**/*.html",
+    "./**/*.html",
+    "./**/*.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
