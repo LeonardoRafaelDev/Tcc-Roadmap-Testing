@@ -2,6 +2,8 @@
 module.exports = {
   content: [
     "./index.html",
+    "./Blog/index.html",
+    "./Roadmap/Tdd.html",
     "./src/**/*.{js,ts,jsx,tsx,html}",
   ],
   theme: {
