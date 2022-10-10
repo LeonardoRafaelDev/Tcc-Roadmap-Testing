@@ -21,7 +21,7 @@
             <div class="flex justify-between">
               <div class="flex gap-4">
                 <div>
-                  <a href="/src/index.html" class="flex items-center">
+                  <a href="/index.html" class="flex items-center">
                     <img
                       src="/Navbar/logo.svg"
                       alt="Logo He4rt Developer"
@@ -36,34 +36,28 @@
               >
                 <a
                   href="/index.html"
-                  class="hover:text-black"
+                  class="hover:text-black-Default"
                   aria-current="page"
                   >Home</a
                 >
                 <a
-                  href="/src/pages/blog/blog.html"
-                  class="hover:text-black"
+                  href="/index.html#RoadMap"
+                  class="hover:text-black-Default"
                   aria-current="page"
-                  >RoadMapTdd</a
+                  >RoadMaps</a
                 >
                 <a
-                  href="/src/pages/gallery/gallery.html"
-                  class="hover:text-black"
+                  href="#Contact"
+                  class="hover:text-black-Default"
                   aria-current="page"
                   >Contato</a
                 >
-                <a
-                  href="/src/pages/about/about.html"
-                  class="hover:text-black"
-                  aria-current="page"
-                  >Suporte</a
-                >
               </div>
               <div class="hidden md:flex items-center md:pl-3 lg:pl-0">
-                <a href="" class="">
+                <a href="/Roadmap/Tdd.html">
                   <button
                     type="button"
-                    class="lg:h-14 lg:w-32 text-black-Default bg-background-white rounded-lg text-md px-5 py-2.5 text-center mr-3 md:mr-0 font-bold text-md"
+                    class="lg:h-14 lg:w-32 text-black-Default bg-background-white hover:bg-background-Default hover:text-white-Default  rounded-lg text-md px-5 py-2.5 text-center mr-3 md:mr-0 font-bold text-md"
                   >
                     Ir
                   </button></a
@@ -93,58 +87,50 @@
             <ul>
               <li class="mb-8">
                 <a
-                  href="/src/pages/schedule/schedule.html"
-                  class="block text-base"
+                  href="/index.html"
+                  class="block text-base hover:text-black-Default"
                   aria-current="page"
                   >Home</a
                 >
               </li>
               <li class="mb-8">
                 <a
-                  href="/src/pages/blog/blog.html"
-                  class="block text-base"
+                  href="/index.html#RoadMap"
+                  class="block text-base hover:text-black-Default"
                   aria-current="page"
                   >RoadMapTdd</a
                 >
               </li>
               <li class="mb-8">
                 <a
-                  href="/src/pages/gallery/gallery.html"
-                  class="block text-base"
+                  href="/index.html#Contact"
+                  class="block text-base hover:text-black-Default"
                   aria-current="page"
                   >Contato</a
-                >
-              </li>
-              <li class="mb-8">
-                <a
-                  href="/src/pages/about/about.html"
-                  class="block text-base"
-                  aria-current="page"
-                  >Suporte</a
                 >
               </li>
   
             </ul>
             <a
-              href=""
-              class="text-black-Default bg-background-white rounded-lg text-md px-5 py-2.5 text-center mr-3 md:mr-0 font-bold text-md"
+              href="/Roadmap/Tdd.html"
+              class="text-black-Default bg-background-white hover:bg-background-Default hover:text-white-Default rounded-lg text-md px-5 py-2.5 text-center mr-3 md:mr-0 font-bold text-md"
             >
               Ir
             </a>
           </div>
     </nav>
   
-  </header>
+    </header>
 
-  <section class="container my-32 mx-auto">
+  <section class="container mt-12 mb-32 mx-auto">
     <div
     class="border-b-2 border-divider-Default pb-4 mb-16 mx-4"
   >
-    <h2 class=" text-2xl font-bold mb-2 text-center md:text-left">
-      Confira estes Conteoudos!
+    <h2 class="scroll-left-1 text-2xl font-bold mb-2 text-center md:text-left">
+      Confira estes Conteudos!
     </h2>
     <p
-      class="text-description-Default md:max-w-md text-center md:text-left"
+      class="scroll-left-2 text-description-Default md:max-w-md text-center md:text-left"
     >
     Alguns Conteudos Sobre testes e novidades da area Tech de Fora Desse site que eu indico!
     </p>
@@ -152,186 +138,319 @@
     <div
     class="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-x-48 gap-y-16 px-5"
   >
-    <div class="md:group">
-      <div
-        class="w-full h-48 bg-cover bg-center group-hover:scale-105 transition-all duration-300"
-        style="
-          background-image: url('/TestingJavaScripticon.png');
-        "
-      ></div>
-      <div
-        class="justify-between items-center font-bold my-4 hidden md:flex"
+  <div class="md:group scroll-left-2">
+    <div
+      class="w-full h-48 bg-cover bg-center group-hover:scale-105 transition-all duration-300"
+      style="
+        background-image: url('/images/Home/TestingJavaScripticon.png');
+      "
+    ></div>
+    <div
+      class="justify-between items-center font-bold my-4 hidden md:flex"
+    >
+      <span
+        class="text-yellow-Default before:content-[''] before:inline-block before:w-6 before:bg-yellow-Default before:h-1 before:rounded-lg before:mr-4 before:relative before:bottom-0.5"
+        >JavaScript</span
       >
-        <span
-          class="text-yellow-Default before:content-[''] before:inline-block before:w-6 before:bg-yellow-Default before:h-1 before:rounded-lg before:mr-4 before:relative before:bottom-0.5"
-          >JavaScript</span
-        >
-      </div>
-      <h4 class="font-extrabold text-lg md:text-2xl mb-3 mt-4">
-        Melhores FrameWorks para testar JavaScript
-      </h4>
-      <p class="text-icon dark:text-black-200 mb-4">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Pellentesque aliquam tortor nec felis tristique, quis molestie felis
-        lobortis. Phasellus ullamcorper, mi sit amet tincidunt aliquam,
-      </p>
-      <a href="https://arquidiamantina.org/best-9-frameworks-de-teste-javascript/" class="font-bold inline-flex gap-3 group"
-        ><span
-          class=""
-          >Saiba mais</span
-        >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          fill="none"
-          class="group-hover:left-2 relative"
-        >
-          <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
-            d="M14.7515 6.35147C15.2201 5.88284 15.9799 5.88284 16.4486 6.35147L21.2486 11.1515C21.7172 11.6201 21.7172 12.3799 21.2486 12.8485L16.4486 17.6485C15.9799 18.1172 15.2201 18.1172 14.7515 17.6485C14.2829 17.1799 14.2829 16.4201 14.7515 15.9515L17.503 13.2H3.60003C2.93728 13.2 2.40002 12.6627 2.40002 12C2.40002 11.3373 2.93728 10.8 3.60003 10.8H17.503L14.7515 8.04853C14.2829 7.5799 14.2829 6.8201 14.7515 6.35147Z"
-            fill="white"
-            class=""
-          /></svg
-      ></a>
     </div>
-    <div class="md:group">
-      <div
-        class="w-full h-48 bg-cover bg-center group-hover:scale-105 transition-all duration-300"
-        style="
-          background-image: url('/NodeJsContentIcon.jpeg');
-        "
-      ></div>
-      <div
-        class="justify-between items-center font-bold my-4 hidden md:flex"
+    <h4 class="font-extrabold line-clamp1 text-lg md:text-2xl mb-3 mt-4">
+      Melhores FrameWorks para testar JavaScript
+    </h4>
+    <p class="text-description-Default line-clamp mb-4">
+      Estamos progredindo para uma era de automação. Cada empresa, seja uma start-up ou uma empresa em grande escala, está se esforçando para incorporar testes de automação em seus ciclos de lançamento da forma mais eficiente possível
+    </p>
+    <a href="https://arquidiamantina.org/best-9-frameworks-de-teste-javascript/" target="_blank" class="font-bold inline-flex gap-3 group fill-background-white hover:text-black-900/40 hover:fill-black-900/40 hover:transition-all hover:duration-300">
+      <span
+        class=""
+        >Saiba mais</span
       >
-        <span
-          class="text-green-Default before:content-[''] before:inline-block before:w-6 before:bg-green-Default before:h-1 before:rounded-lg before:mr-4 before:relative before:bottom-0.5"
-          >NodeJs</span
-        >
-      </div>
-      <h4 class="font-extrabold text-lg md:text-2xl mb-3 mt-4">
-        Tudo o que você precisa saber sobre o novo test runner do Node.js
-      </h4>
-      <p class="text-icon dark:text-black-200 mb-4">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Pellentesque aliquam tortor nec felis tristique, quis molestie felis
-        lobortis. Phasellus ullamcorper, mi sit amet tincidunt aliquam,
-      </p>
-      <a href="https://blog.lsantos.dev/node-test-runner/" class="font-bold inline-flex gap-3 group"
-        ><span
-          class=""
-          >Saiba mais</span
-        >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          fill="none"
-          class="group-hover:left-2 relative"
-        >
-          <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
-            d="M14.7515 6.35147C15.2201 5.88284 15.9799 5.88284 16.4486 6.35147L21.2486 11.1515C21.7172 11.6201 21.7172 12.3799 21.2486 12.8485L16.4486 17.6485C15.9799 18.1172 15.2201 18.1172 14.7515 17.6485C14.2829 17.1799 14.2829 16.4201 14.7515 15.9515L17.503 13.2H3.60003C2.93728 13.2 2.40002 12.6627 2.40002 12C2.40002 11.3373 2.93728 10.8 3.60003 10.8H17.503L14.7515 8.04853C14.2829 7.5799 14.2829 6.8201 14.7515 6.35147Z"
-            fill="white"
-            class=""
-          /></svg
-      ></a>
-    </div>
-    <div class="md:group">
-      <div
-        class="w-full h-48 bg-cover bg-center group-hover:scale-105 transition-all duration-300"
-        style="
-          background-image: url('/PhpUnitIcon.png');
-        "
-      ></div>
-      <div
-        class="justify-between items-center font-bold my-4 hidden md:flex"
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill=""
+        class="group-hover:left-2 relative"
       >
-        <span
-          class="text-purpleLight-Default before:content-[''] before:inline-block before:w-6 before:bg-purpleLight-Default before:h-1 before:rounded-lg before:mr-4 before:relative before:bottom-0.5"
-          >PHP</span
-        >
-      </div>
-      <h4 class="font-extrabold text-lg md:text-2xl mb-3 mt-4">
-        Melhorando a performance do PHPUnit
-      </h4>
-      <p class="text-icon dark:text-black-200 mb-4">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Pellentesque aliquam tortor nec felis tristique, quis molestie felis
-        lobortis. Phasellus ullamcorper, mi sit amet tincidunt aliquam,
-      </p>
-      <a href="https://imasters.com.br/back-end/melhorando-performance-do-phpunit" class="font-bold inline-flex gap-3 group"
-        ><span
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M14.7515 6.35147C15.2201 5.88284 15.9799 5.88284 16.4486 6.35147L21.2486 11.1515C21.7172 11.6201 21.7172 12.3799 21.2486 12.8485L16.4486 17.6485C15.9799 18.1172 15.2201 18.1172 14.7515 17.6485C14.2829 17.1799 14.2829 16.4201 14.7515 15.9515L17.503 13.2H3.60003C2.93728 13.2 2.40002 12.6627 2.40002 12C2.40002 11.3373 2.93728 10.8 3.60003 10.8H17.503L14.7515 8.04853C14.2829 7.5799 14.2829 6.8201 14.7515 6.35147Z"
+          fill=""
           class=""
-          >Saiba mais</span
-        >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          fill="none"
-          class="group-hover:left-2 relative"
-        >
-          <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
-            d="M14.7515 6.35147C15.2201 5.88284 15.9799 5.88284 16.4486 6.35147L21.2486 11.1515C21.7172 11.6201 21.7172 12.3799 21.2486 12.8485L16.4486 17.6485C15.9799 18.1172 15.2201 18.1172 14.7515 17.6485C14.2829 17.1799 14.2829 16.4201 14.7515 15.9515L17.503 13.2H3.60003C2.93728 13.2 2.40002 12.6627 2.40002 12C2.40002 11.3373 2.93728 10.8 3.60003 10.8H17.503L14.7515 8.04853C14.2829 7.5799 14.2829 6.8201 14.7515 6.35147Z"
-            fill="white"
-            class=""
-          /></svg
-      ></a>
-    </div>
-    <div class="md:group">
-      <div
-        class="w-full h-48 bg-cover bg-center group-hover:scale-105 transition-all duration-300"
-        style="
-          background-image: url('/ElixirIcon.webp');
-        "
-      ></div>
-      <div
-        class="justify-between items-center font-bold my-4 hidden md:flex"
+        /></svg
+    ></a>
+  </div>
+
+  <div class="md:group scroll-left-2">
+    <div
+      class="w-full h-48 bg-cover bg-center group-hover:scale-105 transition-all duration-300"
+      style="
+        background-image: url('/images/Home/NodeJsContentIcon.jpeg');
+      "
+    ></div>
+    <div
+      class="justify-between items-center font-bold my-4 hidden md:flex"
+    >
+      <span
+        class="text-green-Default before:content-[''] before:inline-block before:w-6 before:bg-green-Default before:h-1 before:rounded-lg before:mr-4 before:relative before:bottom-0.5"
+        >NodeJs</span
       >
-        <span
-          class="text-pinkLight-Default before:content-[''] before:inline-block before:w-6 before:bg-pinkLight-Default before:h-1 before:rounded-lg before:mr-4 before:relative before:bottom-0.5"
-          >Elixir</span
-        >
-      </div>
-      <h4 class="font-extrabold text-lg md:text-2xl mb-3 mt-4">
-        Conheça mais sobre o Elixir, a linguagem de programação funcional brasileira
-      </h4>
-      <p class="text-icon dark:text-black-200 mb-4">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Pellentesque aliquam tortor nec felis tristique, quis molestie felis
-        lobortis. Phasellus ullamcorper, mi sit amet tincidunt aliquam,
-      </p>
-      <a href="https://www.hostgator.com.br/blog/elixir-linguagem-programacao-brasileira/" class="font-bold inline-flex gap-3 group"
-        ><span
-          class=""
-          >Saiba mais</span
-        >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          fill="none"
-          class="group-hover:left-2 relative"
-        >
-          <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
-            d="M14.7515 6.35147C15.2201 5.88284 15.9799 5.88284 16.4486 6.35147L21.2486 11.1515C21.7172 11.6201 21.7172 12.3799 21.2486 12.8485L16.4486 17.6485C15.9799 18.1172 15.2201 18.1172 14.7515 17.6485C14.2829 17.1799 14.2829 16.4201 14.7515 15.9515L17.503 13.2H3.60003C2.93728 13.2 2.40002 12.6627 2.40002 12C2.40002 11.3373 2.93728 10.8 3.60003 10.8H17.503L14.7515 8.04853C14.2829 7.5799 14.2829 6.8201 14.7515 6.35147Z"
-            fill="white"
-            class=""
-          /></svg
-      ></a>
     </div>
+    <h4 class="font-extrabold line-clamp1 text-lg md:text-2xl mb-3 mt-4">
+      Tudo o que você precisa saber sobre o novo test runner do Node.js
+    </h4>
+    <p class="text-description-Default line-clamp mb-4">
+      Como eu já mencionei nesse outro artigo, o Node.js 18 veio cheio de novidades, entre eles a disponibilidade global do comando fetch e o começo da adoção do prefixo node: para importação de módulos do sistema que, inclusive, vamos precisar usar para falar de outra adição: o test runner nativo do sistema.
+    </p>
+    <a href="https://blog.lsantos.dev/node-test-runner/" target="_blank" class="font-bold inline-flex gap-3 group fill-background-white hover:text-black-900/40 hover:fill-black-900/40 hover:transition-all hover:duration-300">
+      <span
+        class=""
+        >Saiba mais</span
+      >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill=""
+        class="group-hover:left-2 relative"
+      >
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M14.7515 6.35147C15.2201 5.88284 15.9799 5.88284 16.4486 6.35147L21.2486 11.1515C21.7172 11.6201 21.7172 12.3799 21.2486 12.8485L16.4486 17.6485C15.9799 18.1172 15.2201 18.1172 14.7515 17.6485C14.2829 17.1799 14.2829 16.4201 14.7515 15.9515L17.503 13.2H3.60003C2.93728 13.2 2.40002 12.6627 2.40002 12C2.40002 11.3373 2.93728 10.8 3.60003 10.8H17.503L14.7515 8.04853C14.2829 7.5799 14.2829 6.8201 14.7515 6.35147Z"
+          fill=""
+          class=""
+        /></svg
+    ></a>
+  </div>
+
+  <div class="md:group scroll-left-3">
+    <div
+      class="w-full h-48 bg-cover bg-center group-hover:scale-105 transition-all duration-300"
+      style="
+        background-image: url('/images/Home/PhpUnitIcon.png');
+      "
+    ></div>
+    <div
+      class="justify-between items-center font-bold my-4 hidden md:flex"
+    >
+      <span
+        class="text-purpleLight-Default before:content-[''] before:inline-block before:w-6 before:bg-purpleLight-Default before:h-1 before:rounded-lg before:mr-4 before:relative before:bottom-0.5"
+        >PHP</span
+      >
+    </div>
+    <h4 class="font-extrabold line-clamp1 text-lg md:text-2xl mb-3 mt-4">
+      Melhorando a performance do PHPUnit
+    </h4>
+    <p class="text-description-Default line-clamp mb-4">
+      Em pleno 2016, acho que não preciso gastar caracteres comentando a importância dos TDD no desenvolvimento de software, porque você já está escrevendo testes, certo?!
+    </p>
+    <a href="https://imasters.com.br/back-end/melhorando-performance-do-phpunit" target="_blank"  class="font-bold inline-flex gap-3 group fill-background-white hover:text-black-900/40 hover:fill-black-900/40 hover:transition-all hover:duration-300">
+      <span
+        class=""
+        >Saiba mais</span
+      >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill=""
+        class="group-hover:left-2 relative"
+      >
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M14.7515 6.35147C15.2201 5.88284 15.9799 5.88284 16.4486 6.35147L21.2486 11.1515C21.7172 11.6201 21.7172 12.3799 21.2486 12.8485L16.4486 17.6485C15.9799 18.1172 15.2201 18.1172 14.7515 17.6485C14.2829 17.1799 14.2829 16.4201 14.7515 15.9515L17.503 13.2H3.60003C2.93728 13.2 2.40002 12.6627 2.40002 12C2.40002 11.3373 2.93728 10.8 3.60003 10.8H17.503L14.7515 8.04853C14.2829 7.5799 14.2829 6.8201 14.7515 6.35147Z"
+          fill=""
+          class=""
+        /></svg
+    ></a>
+  </div>
+
+  <div class="md:group scroll-left-3">
+    <div
+      class="w-full h-48 bg-cover bg-center group-hover:scale-105 transition-all duration-300"
+      style="
+        background-image: url('/images/Home/ElixirIcon.webp');
+      "
+    ></div>
+    <div
+      class="justify-between items-center font-bold my-4 hidden md:flex"
+    >
+      <span
+        class="text-pinkLight-Default before:content-[''] before:inline-block before:w-6 before:bg-pinkLight-Default before:h-1 before:rounded-lg before:mr-4 before:relative before:bottom-0.5"
+        >Elixir</span
+      >
+    </div>
+    <h4 class="font-extrabold line-clamp1 text-lg md:text-2xl mb-3 mt-4">
+      Conheça mais sobre o Elixir, a linguagem de programação funcional brasileira
+    </h4>
+    <p class="text-description-Default line-clamp mb-4">
+      Elixir é uma linguagem de programação funcional executada na máquina virtual do Erlang. Para quem não sabe, o Erlang foi desenvolvido pela Ericsson, empresa conhecida pelos celulares super modernos da década 2000.
+    </p>
+    <a href="https://www.hostgator.com.br/blog/elixir-linguagem-programacao-brasileira/" target="_blank" class="font-bold inline-flex gap-3 group fill-background-white hover:text-black-900/40 hover:fill-black-900/40 hover:transition-all hover:duration-300">
+      <span
+        class=""
+        >Saiba mais</span
+      >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill=""
+        class="group-hover:left-2 relative"
+      >
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M14.7515 6.35147C15.2201 5.88284 15.9799 5.88284 16.4486 6.35147L21.2486 11.1515C21.7172 11.6201 21.7172 12.3799 21.2486 12.8485L16.4486 17.6485C15.9799 18.1172 15.2201 18.1172 14.7515 17.6485C14.2829 17.1799 14.2829 16.4201 14.7515 15.9515L17.503 13.2H3.60003C2.93728 13.2 2.40002 12.6627 2.40002 12C2.40002 11.3373 2.93728 10.8 3.60003 10.8H17.503L14.7515 8.04853C14.2829 7.5799 14.2829 6.8201 14.7515 6.35147Z"
+          fill=""
+          class=""
+        /></svg
+    ></a>
+  </div>
+
+  <div class="md:group scroll-left-3">
+    <div
+      class="w-full h-48 bg-cover bg-center group-hover:scale-105 transition-all duration-300"
+      style="
+        background-image: url('/images/Blog/testes-unitarios-icon.webp');
+      "
+    ></div>
+    <div
+      class="justify-between items-center font-bold my-4 hidden md:flex"
+    >
+      <span
+        class="text-background-white before:content-[''] before:inline-block before:w-6 before:bg-background-white before:h-1 before:rounded-lg before:mr-4 before:relative before:bottom-0.5"
+        >Testes</span
+      >
+    </div>
+    <h4 class="font-extrabold line-clamp1 text-lg md:text-2xl mb-3 mt-4">
+      Testes Unitários: Fundamentos e Qualidade de Software!
+    </h4>
+    <p class="text-description-Default line-clamp mb-4">
+      Antes de falarmos sobre testes, precisamos entender o que é que define a qualidade de um software. Da perspectiva de produto e negócios, do nosso "cliente", um software de qualidade é aquele que atende os requisitos funcionais, expectativa e necessidades do usuário final. E qual é a perspectiva do desenvolvedor quanto à qualidade?
+    </p>
+    <a href="https://dev.to/wnqueiroz/testes-unitarios-fundamentos-e-qualidade-de-software-5af0" target="_blank" class="font-bold inline-flex gap-3 group fill-background-white hover:text-black-900/40 hover:fill-black-900/40 hover:transition-all hover:duration-300">
+      <span
+        class=""
+        >Saiba mais</span
+      >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill=""
+        class="group-hover:left-2 relative"
+      >
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M14.7515 6.35147C15.2201 5.88284 15.9799 5.88284 16.4486 6.35147L21.2486 11.1515C21.7172 11.6201 21.7172 12.3799 21.2486 12.8485L16.4486 17.6485C15.9799 18.1172 15.2201 18.1172 14.7515 17.6485C14.2829 17.1799 14.2829 16.4201 14.7515 15.9515L17.503 13.2H3.60003C2.93728 13.2 2.40002 12.6627 2.40002 12C2.40002 11.3373 2.93728 10.8 3.60003 10.8H17.503L14.7515 8.04853C14.2829 7.5799 14.2829 6.8201 14.7515 6.35147Z"
+          fill=""
+          class=""
+        /></svg
+    ></a>
+  </div>
+  
+  <div class="md:group scroll-left-3">
+    <div
+      class="w-full h-48 bg-cover bg-center group-hover:scale-105 transition-all duration-300"
+      style="
+        background-image: url('/images/Blog/Tdd-testing-icon.png');
+      "
+    ></div>
+    <div
+      class="justify-between items-center font-bold my-4 hidden md:flex"
+    >
+      <span
+        class="text-background-white before:content-[''] before:inline-block before:w-6 before:bg-background-white before:h-1 before:rounded-lg before:mr-4 before:relative before:bottom-0.5"
+        >Testes</span
+      >
+    </div>
+    <h4 class="font-extrabold line-clamp1 text-lg md:text-2xl mb-3 mt-4">
+      Tudo o que você precisa saber sobre TDD 
+    </h4>
+    <p class="text-description-Default line-clamp mb-4">
+      TDD é a sigla para Test Driven Development, que em português significa Desenvolvimento Orientado por Testes. Esse é um método de desenvolvimento muito comum atualmente.
+
+      Ele se baseia na aplicação de pequenos ciclos de repetições. Em cada um deles, um teste é aplicado. 
+      
+      O objetivo é desenvolver uma função que permita que esse teste tenha um resultado positivo. Ou seja, a função está pronta para ser implementada. 
+    </p>
+    <a href="https://www.techlise.com.br/blog/tudo-o-que-voce-precisa-saber-sobre-tdd/" target="_blank" class="font-bold inline-flex gap-3 group fill-background-white hover:text-black-900/40 hover:fill-black-900/40 hover:transition-all hover:duration-300">
+      <span
+        class=""
+        >Saiba mais</span
+      >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill=""
+        class="group-hover:left-2 relative"
+      >
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M14.7515 6.35147C15.2201 5.88284 15.9799 5.88284 16.4486 6.35147L21.2486 11.1515C21.7172 11.6201 21.7172 12.3799 21.2486 12.8485L16.4486 17.6485C15.9799 18.1172 15.2201 18.1172 14.7515 17.6485C14.2829 17.1799 14.2829 16.4201 14.7515 15.9515L17.503 13.2H3.60003C2.93728 13.2 2.40002 12.6627 2.40002 12C2.40002 11.3373 2.93728 10.8 3.60003 10.8H17.503L14.7515 8.04853C14.2829 7.5799 14.2829 6.8201 14.7515 6.35147Z"
+          fill=""
+          class=""
+        /></svg
+    ></a>
+  </div>
+  
+    
+  <div class="md:group scroll-left-3">
+    <div
+      class="w-full h-48 bg-cover bg-center group-hover:scale-105 transition-all duration-300"
+      style="
+        background-image: url('/images/Blog/phpunit-testing-icon.png');
+      "
+    ></div>
+    <div
+      class="justify-between items-center font-bold my-4 hidden md:flex"
+    >
+      <span
+        class="text-purpleLight-Default before:content-[''] before:inline-block before:w-6 before:bg-purpleLight-Default before:h-1 before:rounded-lg before:mr-4 before:relative before:bottom-0.5"
+        >PHP</span
+      >
+    </div>
+    <h4 class="font-extrabold line-clamp1 text-lg md:text-2xl mb-3 mt-4">
+      Teste unitário com PHPUnit
+    </h4>
+    <p class="text-description-Default line-clamp mb-4">
+      Teste unitário é uma metodologia de testes automatizados que leva em consideração a menor unidade do software, ou seja, ao invés de testar dentro do código fonte e executar o código manualmente para imprimir o resultado na tela, o programador cria um projeto de teste, que executa cada trecho do código de forma automática e exibe o resultado de todos os testes.
+    </p>
+    <a href="https://www.devmedia.com.br/teste-unitario-com-phpunit/41231" target="_blank" class="font-bold inline-flex gap-3 group fill-background-white hover:text-black-900/40 hover:fill-black-900/40 hover:transition-all hover:duration-300">
+      <span
+        class=""
+        >Saiba mais</span
+      >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill=""
+        class="group-hover:left-2 relative"
+      >
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M14.7515 6.35147C15.2201 5.88284 15.9799 5.88284 16.4486 6.35147L21.2486 11.1515C21.7172 11.6201 21.7172 12.3799 21.2486 12.8485L16.4486 17.6485C15.9799 18.1172 15.2201 18.1172 14.7515 17.6485C14.2829 17.1799 14.2829 16.4201 14.7515 15.9515L17.503 13.2H3.60003C2.93728 13.2 2.40002 12.6627 2.40002 12C2.40002 11.3373 2.93728 10.8 3.60003 10.8H17.503L14.7515 8.04853C14.2829 7.5799 14.2829 6.8201 14.7515 6.35147Z"
+          fill=""
+          class=""
+        /></svg
+    ></a>
+  </div>
+  
   </div>
   </section>
   
@@ -345,37 +464,36 @@
   />
   <h2 class="font-bold text-lg my-4">Testing Roadmap</h2>
   <p class="text-icon dark:text-black-200 max-w-md mb-12">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean interdum
-    risus eu viverra condimentum.
+    Este projeto foi criado a base de tdd, teste apos deploy
   </p>
   <div
     class="flex flex-wrap items-center justify-center space-x-1 font-bold gap-x-8 gap-y-2"
   >
     <a
-      href=""
+      href="/index.html"
       class="text-black-200 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-primary"
       >Home</a
     >
     <a
-      href=""
-      class=""
-      >RoadMapTdd</a
+      href="/index.html#RoadMap"
+      class="text-black-200 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-primary"
+      >RoadMaps</a
     >
     <a
-      href=""
-      class=""
+    href="/Blog/index.html"
+    class="text-black-200 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-primary"
+    >Blog</a
+  >
+    <a
+      href="/index.html#Contact"
+      class="text-black-200 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-primary"
       >Contato</a
-    >
-    <a
-      href=""
-      class=""
-      >Sobre</a
     >
   </div>
   </footer>
 
 <script src="https://unpkg.com/scrollreveal"></script>
-<script type="module" src="/src/index.js"></script>
-<script type="module" src="/src/scrollreveal.js"></script>
+<script type="module" src="/index.js"></script>
+<script type="module" src="/scrollreveal.js"></script>
 </body>
 </html>
