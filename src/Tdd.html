@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.3/dist/flowbite.min.css" />
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml">
@@ -11,6 +12,7 @@
     href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
     rel="stylesheet"
   />
+
   <title>Testing RoadMap</title>
 </head>
 <body class="bg-gradient-to-b from-background-Gradient1 to-background-Gradient2 text-Text-Default font-Inter">
@@ -152,9 +154,273 @@
       </div>
     </main>
   
-    <section class="container my-32 mx-auto">
-      <img src="/frontend.svg"/>
+    <section class="container my-3 mx-auto">
+    <img src="/TddRoadmap.png"/>
     </section>
+    
+    <section class="container my-3 mx-auto p-10">
+      <div id="accordion-collapse" data-accordion="collapse">
+
+        <h2 id="accordion-collapse-heading-1">
+          <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-white-Default border border-b-0 border-white-Default rounded-t-xl focus:ring-4 focus:ring-gray-200 hover:bg-primary-900" data-accordion-target="#accordion-collapse-body-1" aria-expanded="true" aria-controls="accordion-collapse-body-1">
+            <span>Entendimento de qualquer lang</span>
+            <svg data-accordion-icon class="w-6 h-6 rotate-180 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+          </button>
+        </h2>
+        <div id="accordion-collapse-body-1" class="hidden" aria-labelledby="accordion-collapse-heading-1">
+          <div class="p-5 font-light border border-b-0 border-white-Default dark:border-gray-700 dark:bg-gray-900">
+            <ul class="pl-5 text-white-Default list-disc">
+              <li><a href="https://learn.microsoft.com/en-us/dotnet/csharp/" class="text-blue-600 dark:text-blue-500 hover:underline">C#</a></li>
+              <li><a href="https://elixir-lang.org/" rel="nofollow" class="text-blue-600 dark:text-blue-500 hover:underline">Elixir</a></li>
+              <li><a href="https://nodejs.org/en/docs/" rel="nofollow" class="text-blue-600 dark:text-blue-500 hover:underline">Node.js</a></li>
+              <li><a href="https://docs.oracle.com/en/java/" rel="nofollow" class="text-blue-600 dark:text-blue-500 hover:underline">Java</a></li>
+              <li><a href="https://www.php.net/docs.php" rel="nofollow" class="text-blue-600 dark:text-blue-500 hover:underline">PHP</a></li>
+              <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" rel="nofollow" class="text-blue-600 dark:text-blue-500 hover:underline">Javascript</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <h2 id="accordion-collapse-heading-2">
+          <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-white-Default border border-b-0 border-white-Default focus:ring-4 focus:ring-gray-200 hover:bg-primary-900" data-accordion-target="#accordion-collapse-body-2" aria-expanded="false" aria-controls="accordion-collapse-body-2">
+            <span>um framework de teste para a mesma.</span>
+            <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+          </button>
+        </h2>
+        <div id="accordion-collapse-body-2" class="hidden" aria-labelledby="accordion-collapse-heading-2">
+          <div class="p-5 font-light border border-b-0 border-white-Default dark:border-gray-700">
+            <ul class="pl-5 text-white-Default list-disc">
+              <li><a href="https://xunit.net/" class="text-blue-600 dark:text-blue-500 hover:underline">C# = xunit</a></li>
+              <li><a href="https://hexdocs.pm/ex_unit/1.12/ExUnit.html" rel="nofollow" class="text-blue-600 dark:text-blue-500 hover:underline">Elixir = ExUnit</a></li>
+              <li><a href="https://jasmine.github.io/" rel="nofollow" class="text-blue-600 dark:text-blue-500 hover:underline">Node.js = jasmine</a></li>
+              <li><a href="https://www.selenium.dev/" rel="nofollow" class="text-blue-600 dark:text-blue-500 hover:underline">Java = selenio</a></li>
+              <li><a href="https://phpunit.de/" rel="nofollow" class="text-blue-600 dark:text-blue-500 hover:underline">PHP = PHPUnit</a></li>
+              <li><a href="https://jestjs.io/pt-BR/" rel="nofollow" class="text-blue-600 dark:text-blue-500 hover:underline">Javascript = Jest</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <h2 id="accordion-collapse-heading-3">
+          <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-white-Default border border-white-Default focus:ring-4 focus:ring-gray-200 hover:bg-primary-900" data-accordion-target="#accordion-collapse-body-3" aria-expanded="false" aria-controls="accordion-collapse-body-3">
+            <span>Teste Manual</span>
+            <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+          </button>
+        </h2>
+        <div id="accordion-collapse-body-3" class="hidden" aria-labelledby="accordion-collapse-heading-3">
+          <div class="p-5 font-light border border-t-0 border-white-Default dark:border-gray-700">
+            <p class="mb-2 text-white-Default dark:text-gray-400">O teste manual é um tipo de teste de software no qual os casos de teste são executados manualmente por um testador sem o uso de ferramentas automatizadas. O objetivo do teste manual é identificar os bugs, problemas e defeitos no aplicativo de software. O teste manual de software é a técnica mais primitiva de todos os tipos de teste e ajuda a encontrar erros críticos no aplicativo de software.</p>
+            <ul class="pl-5 text-white-Default list-disc dark:text-gray-400">
+              <li><a href="https://www.guru99.com/manual-testing.html" class="text-blue-600 dark:text-blue-500 hover:underline">Manual Testing Tutorial: What is, Types, Concepts</a></li>
+              <li><a href="https://www.javatpoint.com/manual-testing" rel="nofollow" class="text-blue-600 dark:text-blue-500 hover:underline">Manual Testing</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <h2 id="accordion-collapse-heading-4">
+          <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-white-Default border border-white-Default focus:ring-4 focus:ring-gray-200 hover:bg-primary-900" data-accordion-target="#accordion-collapse-body-4" aria-expanded="false" aria-controls="accordion-collapse-body-4">
+            <span>Teste Manual- planejamento de teste</span>
+            <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+          </button>
+        </h2>
+        <div id="accordion-collapse-body-4" class="hidden" aria-labelledby="accordion-collapse-heading-4">
+          <div class="p-5 font-light border border-t-0 border-white-Default dark:border-gray-700">
+            <p class="mb-2 text-white-Default dark:text-gray-400">Um Plano de Teste é um documento detalhado que descreve a estratégia de teste, objetivos, cronograma, estimativa, entregas e recursos necessários para realizar o teste de um produto de software. O Plano de Teste nos ajuda a determinar o esforço necessário para validar a qualidade do aplicativo em teste.</p>
+            <ul class="pl-5 text-white-Default list-disc dark:text-gray-400">
+              <li><a href="https://www.guru99.com/what-everybody-ought-to-know-about-test-planing.html" class="text-blue-600 dark:text-blue-500 hover:underline">Test Plan: What is, How to Create (with Example)</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <h2 id="accordion-collapse-heading-5">
+          <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-white-Default border border-white-Default focus:ring-4 focus:ring-gray-200 hover:bg-primary-900" data-accordion-target="#accordion-collapse-body-5" aria-expanded="false" aria-controls="accordion-collapse-body-5">
+            <span>Teste Manual- Testes Funcional</span>
+            <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+          </button>
+        </h2>
+        <div id="accordion-collapse-body-5" class="hidden" aria-labelledby="accordion-collapse-heading-5">
+          <div class="p-5 font-light border border-t-0 border-white-Default dark:border-gray-700">
+            <p class="mb-2 text-white-Default dark:text-gray-400">O teste funcional é um tipo de teste de software que valida o sistema de software em relação aos requisitos/especificações funcionais. O objetivo dos testes funcionais é testar cada função do aplicativo de software fornecendo entrada apropriada e verificando a saída em relação aos requisitos funcionais.</p>
+            <ul class="pl-5 text-white-Default list-disc dark:text-gray-400">
+              <li><a href="https://www.guru99.com/functional-testing.html" class="text-blue-600 dark:text-blue-500 hover:underline">What is Functional Testing? Types & Examples</a></li>
+              <li><a href="https://www.browserstack.com/guide/functional-testing" class="text-blue-600 dark:text-blue-500 hover:underline">Functional Testing : A Detailed Guide</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <h2 id="accordion-collapse-heading-6">
+          <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-white-Default border border-white-Default focus:ring-4 focus:ring-gray-200 hover:bg-primary-900" data-accordion-target="#accordion-collapse-body-6" aria-expanded="false" aria-controls="accordion-collapse-body-6">
+            <span>Teste Manual- Testes não Funcionais</span>
+            <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+          </button>
+        </h2>
+        <div id="accordion-collapse-body-6" class="hidden" aria-labelledby="accordion-collapse-heading-6">
+          <div class="p-5 font-light border border-t-0 border-white-Default dark:border-gray-700">
+            <p class="mb-2 text-white-Default dark:text-gray-400">O teste não funcional é um tipo de teste de software para testar parâmetros não funcionais, como confiabilidade, teste de carga, desempenho e responsabilidade do software. O objetivo principal do teste não funcional é testar a velocidade de leitura do sistema de software de acordo com os parâmetros não funcionais. Os parâmetros do teste não funcional nunca são testados antes do teste funcional.</p>
+            <ul class="pl-5 text-white-Default list-disc dark:text-gray-400">
+              <li><a href="https://www.browserstack.com/guide/what-is-non-functional-testing" class="text-blue-600 dark:text-blue-500 hover:underline">What is Non Functional Testing</a></li>
+              <li><a href="https://www.guru99.com/non-functional-testing.html" class="text-blue-600 dark:text-blue-500 hover:underline">Types of Non Functional Testing</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <h2 id="accordion-collapse-heading-7">
+          <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-white-Default border border-white-Default focus:ring-4 focus:ring-gray-200 hover:bg-primary-900" data-accordion-target="#accordion-collapse-body-7" aria-expanded="false" aria-controls="accordion-collapse-body-7">
+            <span>Teste Manual- Report</span>
+            <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+          </button>
+        </h2>
+        <div id="accordion-collapse-body-7" class="hidden" aria-labelledby="accordion-collapse-heading-7">
+          <div class="p-5 font-light border border-t-0 border-white-Default dark:border-gray-700">
+            <p class="mb-2 text-white-Default dark:text-gray-400">A comunicação das saídas da equipe de controle de qualidade e teste pode ser interpretada de várias maneiras diferentes. Ter um fluxo de relatórios sólido é muito essencial para todas as decisões que uma parte interessada/gerente pode tomar.</p>
+            <ul class="pl-5 text-white-Default list-disc dark:text-gray-400">
+              <li><a href="https://www.guru99.com/defect-management-process.html" class="text-blue-600 dark:text-blue-500 hover:underline">Defect Management Process in Software Testing</a></li>
+              <li><a href="https://automationhacks.io/2020/07/25/writing-clear-bug-reports/" class="text-blue-600 dark:text-blue-500 hover:underline">Writing clear bug reports</a></li>
+              <li><a href="https://www.ministryoftesting.com/dojo/series/the-testing-planet-2019/lessons/the-art-of-the-bug-report" class="text-blue-600 dark:text-blue-500 hover:underline">The Art Of The Bug Report</a></li>
+            </ul>
+          </div>
+        </div>
+
+
+        <h2 id="accordion-collapse-heading-8">
+          <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-white-Default border border-white-Default focus:ring-4 focus:ring-gray-200 hover:bg-primary-900" data-accordion-target="#accordion-collapse-body-8" aria-expanded="false" aria-controls="accordion-collapse-body-8">
+            <span>Teste Manual- Cases de test e cenarios</span>
+            <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+          </button>
+        </h2>
+        <div id="accordion-collapse-body-8" class="hidden" aria-labelledby="accordion-collapse-heading-8">
+          <div class="p-5 font-light border border-t-0 border-white-Default dark:border-gray-700">
+            <p class="mb-2 text-white-Default dark:text-gray-400">Um Caso de Teste é um conjunto de ações executadas para verificar um determinado recurso ou funcionalidade do seu aplicativo de software. Um Caso de Teste contém etapas de teste, dados de teste, pré-condição e pós-condição desenvolvidos para um cenário de teste específico para verificar qualquer requisito. O caso de teste inclui variáveis ​​ou condições específicas, com as quais um engenheiro de teste pode comparar os resultados esperados e reais para determinar se um produto de software está funcionando de acordo com os requisitos do cliente.
+
+              Um Cenário de Teste é definido como qualquer funcionalidade que pode ser testada. É um conjunto coletivo de casos de teste que ajuda a equipe de teste a determinar as características positivas e negativas do projeto.</p>
+            <ul class="pl-5 text-white-Default list-disc dark:text-gray-400">
+              <li><a href="https://www.guru99.com/test-case-vs-test-scenario.html" class="text-blue-600 dark:text-blue-500 hover:underline">Test Case vs Test Scenario – Difference Between Them</a></li>
+              <li><a href="https://www.guru99.com/test-case.html" class="text-blue-600 dark:text-blue-500 hover:underline">How to Write Test Cases in Software Testing with Examples</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <h2 id="accordion-collapse-heading-9">
+          <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-white-Default border border-white-Default focus:ring-4 focus:ring-gray-200 hover:bg-primary-900" data-accordion-target="#accordion-collapse-body-9" aria-expanded="false" aria-controls="accordion-collapse-body-9">
+            <span>Teste Manual- Verficação e validação</span>
+            <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+          </button>
+        </h2>
+        <div id="accordion-collapse-body-9" class="hidden" aria-labelledby="accordion-collapse-heading-9">
+          <div class="p-5 font-light border border-t-0 border-white-Default dark:border-gray-700">
+            <p class="mb-2 text-white-Default dark:text-gray-400">Verificação em Teste de Software é um processo de verificação de documentos, projeto, código e programa para verificar se o software foi construído de acordo com os requisitos ou não. O principal objetivo do processo de verificação é garantir a qualidade da aplicação de software, design, arquitetura, etc. O processo de verificação envolve atividades como revisões, revisões e inspeção.
+
+              A validação em Engenharia de Software é um mecanismo dinâmico de teste e validação se o produto de software realmente atende às necessidades exatas do cliente ou não. O processo ajuda a garantir que o software cumpra o uso desejado em um ambiente apropriado. O processo de validação envolve atividades como teste de unidade, teste de integração, teste de sistema e teste de aceitação do usuário.</p>
+            <ul class="pl-5 text-white-Default list-disc dark:text-gray-400">
+              <li><a href="https://www.guru99.com/verification-v-s-validation-in-a-software-testing.html" class="text-blue-600 dark:text-blue-500 hover:underline">Differences Between Verification and Validation</a></li>
+              <li><a href="https://www.guru99.com/design-verification-process.html" class="text-blue-600 dark:text-blue-500 hover:underline">Design Verification & Validation Process</a></li>
+            </ul>
+          </div>
+        </div>
+
+
+        <h2 id="accordion-collapse-heading-10">
+          <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-white-Default border border-white-Default focus:ring-4 focus:ring-gray-200 hover:bg-primary-900" data-accordion-target="#accordion-collapse-body-10" aria-expanded="false" aria-controls="accordion-collapse-body-10">
+            <span>Testes Automatizados</span>
+            <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+          </button>
+        </h2>
+        <div id="accordion-collapse-body-10" class="hidden" aria-labelledby="accordion-collapse-heading-10">
+          <div class="p-5 font-light border border-t-0 border-white-Default dark:border-gray-700">
+            <p class="mb-2 text-white-Default dark:text-gray-400">O teste de automação é uma técnica de teste de software que é executada usando ferramentas especiais de software de teste automatizado para executar um conjunto de casos de teste. Pelo contrário, o teste manual é realizado por um humano sentado em frente a um computador executando cuidadosamente as etapas do teste.
+
+              O teste automatizado é a aplicação de ferramentas de software para automatizar um processo manual conduzido por humanos de revisão e validação de um produto de software. A maioria dos projetos modernos de software ágil e DevOps agora incluem testes automatizados desde o início. Para apreciar plenamente o valor dos testes automatizados, no entanto, é útil entender como era a vida antes de ser amplamente adotado.</p>
+            <ul class="pl-5 text-white-Default list-disc dark:text-gray-400">
+              <li><a href="https://www.atlassian.com/continuous-delivery/software-testing/automated-testing" class="text-blue-600 dark:text-blue-500 hover:underline">What is Automated Testing?</a></li>
+              <li><a href="https://www.browserstack.com/guide/testing-pyramid-for-test-automation" class="text-blue-600 dark:text-blue-500 hover:underline">Testing Pyramid</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <h2 id="accordion-collapse-heading-11">
+          <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-white-Default border border-white-Default focus:ring-4 focus:ring-gray-200 hover:bg-primary-900" data-accordion-target="#accordion-collapse-body-11" aria-expanded="false" aria-controls="accordion-collapse-body-11">
+            <span>Testes Automatizados- Automação Backend</span>
+            <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+          </button>
+        </h2>
+        <div id="accordion-collapse-body-11" class="hidden" aria-labelledby="accordion-collapse-heading-11">
+          <div class="p-5 font-light border border-t-0 border-white-Default dark:border-gray-700">
+            <p class="mb-2 text-white-Default dark:text-gray-400">O teste de back-end é um método de teste que verifica o lado do servidor ou banco de dados de aplicativos ou software da web. O teste de back-end visa testar a camada de aplicativo ou a camada de banco de dados para garantir que o aplicativo da Web ou o software esteja livre de defeitos de banco de dados, como deadlock, corrupção de dados ou perda de dados.</p>
+            <ul class="pl-5 text-white-Default list-disc dark:text-gray-400">
+              <li><a href="https://testinggenez.com/what-is-backend-testing-and-types/" class="text-blue-600 dark:text-blue-500 hover:underline">What is backend testing?</a></li>
+              <li><a href="https://www.guru99.com/what-is-backend-testing.html" class="text-blue-600 dark:text-blue-500 hover:underline">Backend Testing Tutorial</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <h2 id="accordion-collapse-heading-12">
+          <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-white-Default border border-white-Default focus:ring-4 focus:ring-gray-200 hover:bg-primary-900" data-accordion-target="#accordion-collapse-body-12" aria-expanded="false" aria-controls="accordion-collapse-body-12">
+            <span>Testes Automatizados- Automação FrontEnd</span>
+            <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+          </button>
+        </h2>
+        <div id="accordion-collapse-body-12" class="hidden" aria-labelledby="accordion-collapse-heading-12">
+          <div class="p-5 font-light border border-t-0 border-white-Default dark:border-gray-700">
+            <p class="mb-2 text-white-Default dark:text-gray-400">A automação de front-end é uma forma de caracterizar a automação que agiliza tarefas focadas em interatividade, sites e processos atendidos. A automação de processos robóticos, ou RPA, é considerada automação no front-end ou no nível da interface do usuário (UI). Os benefícios da automação de front-end incluem a criação rápida de tarefas sem conhecimento de programação, sem necessidade de alterações em programas ou aplicativos existentes, e os indivíduos que conhecem as teclas podem facilmente criar a tarefa de automação.</p>
+            <ul class="pl-5 text-white-Default list-disc dark:text-gray-400">
+              <li><a href="https://dev.to/davidz/how-we-do-automated-testing-on-our-frontend-b10" class="text-blue-600 dark:text-blue-500 hover:underline">How we do automated testing on our frontend</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <h2 id="accordion-collapse-heading-13">
+          <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-white-Default border border-white-Default focus:ring-4 focus:ring-gray-200 hover:bg-primary-900" data-accordion-target="#accordion-collapse-body-13" aria-expanded="false" aria-controls="accordion-collapse-body-13">
+            <span>TDD- Test Driven Development</span>
+            <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+          </button>
+        </h2>
+        <div id="accordion-collapse-body-13" class="hidden" aria-labelledby="accordion-collapse-heading-13">
+          <div class="p-5 font-light border border-t-0 border-white-Default dark:border-gray-700">
+            <p class="mb-2 text-white-Default dark:text-gray-400">Test Driven Development (TDD) é uma abordagem de desenvolvimento de software na qual os casos de teste são desenvolvidos para especificar e validar o que o código fará. Em termos simples, os casos de teste para cada funcionalidade são criados e testados primeiro e, se o teste falhar, o novo código é escrito para passar no teste e tornar o código simples e livre de erros.
+            </p>
+            <ul class="pl-5 text-white-Default list-disc dark:text-gray-400">
+              <li><a href="https://www.guru99.com/test-driven-development.html" class="text-blue-600 dark:text-blue-500 hover:underline">What is Test Driven Development (TDD)? Tutorial with Example</a></li>
+              <li><a href="https://www.devmedia.com.br/test-driven-development-tdd-simples-e-pratico/18533" class="text-blue-600 dark:text-blue-500 hover:underline">Test Driven Development: TDD Simples e Prático</a></li>
+              <li><a href="https://www.techlise.com.br/blog/tudo-o-que-voce-precisa-saber-sobre-tdd/" class="text-blue-600 dark:text-blue-500 hover:underline">Tudo o que você precisa saber sobre TDD </a></li>
+            </ul>
+          </div>
+        </div>
+
+        <h2 id="accordion-collapse-heading-14">
+          <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-white-Default border border-white-Default focus:ring-4 focus:ring-gray-200 hover:bg-primary-900" data-accordion-target="#accordion-collapse-body-14" aria-expanded="false" aria-controls="accordion-collapse-body-14">
+            <span>TDD- Quando usar tdd </span>
+            <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+          </button>
+        </h2>
+        <div id="accordion-collapse-body-14" class="hidden" aria-labelledby="accordion-collapse-heading-14">
+          <div class="p-5 font-light border border-t-0 border-white-Default dark:border-gray-700">
+            <p class="mb-2 text-white-Default dark:text-gray-400">Test Driven Development (TDD) é uma abordagem de desenvolvimento de software na qual os casos de teste são desenvolvidos para especificar e validar o que o código fará. Em termos simples, os casos de teste para cada funcionalidade são criados e testados primeiro e, se o teste falhar, o novo código é escrito para passar no teste e tornar o código simples e livre de erros.
+            </p>
+            <ul class="pl-5 text-white-Default list-disc dark:text-gray-400">
+              <li><a href="https://dev.to/gpiress/quando-usar-tdd-1c18" class="text-blue-600 dark:text-blue-500 hover:underline">Quando usar TDD</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <h2 id="accordion-collapse-heading-15">
+          <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-white-Default border border-white-Default focus:ring-4 focus:ring-gray-200 hover:bg-primary-900" data-accordion-target="#accordion-collapse-body-15" aria-expanded="false" aria-controls="accordion-collapse-body-15">
+            <span>TDD- Ciclo do Tdd Red Green Refactor </span>
+            <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+          </button>
+        </h2>
+        <div id="accordion-collapse-body-15" class="hidden" aria-labelledby="accordion-collapse-heading-15">
+          <div class="p-5 font-light border border-t-0 border-white-Default dark:border-gray-700">
+            <p class="mb-2 text-white-Default dark:text-gray-400">O desenvolvimento orientado a testes (TDD) é uma abordagem de desenvolvimento de software em que você escreve testes primeiro e depois usa esses testes para orientar o design e o desenvolvimento de seu aplicativo de software.
+
+              Neste artigo, você aprenderá sobre uma abordagem TDD chamada red, green, refactor, uma estrutura que os desenvolvedores usam para construir um conjunto de testes, escrever código de implementação e otimizar sua base de código em ciclos de desenvolvimento curtos.
+            </p>
+            <ul class="pl-5 text-white-Default list-disc dark:text-gray-400">
+              <li><a href="https://www.codecademy.com/article/tdd-red-green-refactor" class="text-blue-600 dark:text-blue-500 hover:underline">Red, Green, Refactor</a></li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
   <footer
   class="bg-[#781DF7] py-28 text-center flex flex-col justify-center items-center px-5"
 >
@@ -172,29 +438,29 @@
   >
     <a
       href="/index.html"
-      class="text-black-200 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-primary"
+      class="text-black-200 rounded hover:bg-primary-900 md:hover:bg-transparent md:hover:text-primary"
       >Home</a
     >
     <a
-      href="/index.html#RoadMap"
-      class="text-black-200 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-primary"
+      href="#RoadMap"
+      class="text-black-200 rounded hover:bg-primary-900 md:hover:bg-transparent md:hover:text-primary"
       >RoadMaps</a
     >
     <a
     href="/Blog.html"
-    class="text-black-200 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-primary"
+    class="text-black-200 rounded hover:bg-primary-900 md:hover:bg-transparent md:hover:text-primary"
     >Blog</a
   >
     <a
-      href="/index.html#Contact"
-      class="text-black-200 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-primary"
+      href="#Contact"
+      class="text-black-200 rounded hover:bg-primary-900 md:hover:bg-transparent md:hover:text-primary"
       >Contato</a
     >
   </div>
   </footer>
-
-<script src="https://unpkg.com/scrollreveal"></script>
-<script type="module" src="/index.js"></script>
-<script type="module" src="/scrollreveal.js"></script>
+  <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script type="module" src="/index.js"></script>
+  <script type="module" src="/scrollreveal.js"></script>
 </body>
 </html>
